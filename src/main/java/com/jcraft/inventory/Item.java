@@ -21,4 +21,16 @@ public interface Item {
 	 * @return ID of the item.
 	 */
 	public int get_item_id();
+	
+	/**
+	 * This function sets the Item type.
+	 * @param itemType : {@link String} with the item type.
+	 */
+	public void set_item_type(String itemType);
+	
+	/**
+	 * This function sets the Item ID.
+	 * @param itemID : {@link Integer} with the item ID.
+	 */
+	public void set_item_id(int itemID);
 }
