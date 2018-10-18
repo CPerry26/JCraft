@@ -7,8 +7,6 @@ package com.jcraft.inventory;
  *
  */
 public interface Item {
-	// This is the item ID.
-	public int itemID = 0;
 	
 	/**
 	 * This function gets the item type.
